@@ -59,16 +59,16 @@ of screen data:
 which works both for options (1) and (2). The two parts of this file
 should be changed, the original being:
 
-# [General]
+[General]
 loginMode=restorePreviousLogout
 
-# [LegacySession: saved at previous logout]
+[LegacySession: saved at previous logout]
 count=0
 
-# [LegacySession: saved by user]
+[LegacySession: saved by user]
 count=0
 
-# [Session: saved at previous logout]
+[Session: saved at previous logout]
 clientId1=1020b17a1a5175000170973739400000014680004
 clientId2=1020b17a1a5175000170972244200000014760007
 clientId3=1020b17a1a5175000170972253100000014850009
@@ -76,32 +76,32 @@ clientId4=1020b17a1a5175000170972254400000014850010
 clientId5=1020b17a1a5175000170972255700000014850011
 clientId6=1020b17a1a5175000170972257100000014850012
 count=6
-discardCommand3[$e]=rm,$HOME/.config/session/konsole_10
-20b17a1a5175000170972253100000014850009_1709737722_999027
-discardCommand4[$e]=rm,$HOME/.config/session/konsole_10
-20b17a1a5175000170972254400000014850010_1709737722_999258
-discardCommand5[$e]=rm,$HOME/.config/session/konsole_10
-20b17a1a5175000170972255700000014850011_1709737722_999371
-discardCommand6[$e]=rm,$HOME/.config/session/konsole_10
-20b17a1a5175000170972257100000014850012_1709737722_999412
+discardCommand3[$e]=rm,$HOME/.config/session/
+konsole_1020b17a1a5175000170972253100000014850009_1709737722_999027
+discardCommand4[$e]=rm,$HOME/.config/session/
+konsole_1020b17a1a5175000170972254400000014850010_1709737722_999258
+discardCommand5[$e]=rm,$HOME/.config/session/
+konsole_1020b17a1a5175000170972255700000014850011_1709737722_999371
+discardCommand6[$e]=rm,$HOME/.config/session/
+konsole_1020b17a1a5175000170972257100000014850012_1709737722_999412
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
 program4=/usr/bin/konsole
 program5=/usr/bin/konsole
 program6=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a
-5175000170973739400000014680004_1709737722_998719
-restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a5175000170
-972244200000014760007_1709737722_999037
-restartCommand3=/usr/bin/konsole,-session,1020b17a1a5175000170972
-253100000014850009_1709737722_999027
-restartCommand4=/usr/bin/konsole,-session,1020b17a1a5175000170972
-254400000014850010_1709737722_999258
-restartCommand5=/usr/bin/konsole,-session,1020b17a1a5175000170972
-255700000014850011_1709737722_999371
-restartCommand6=/usr/bin/konsole,-session,1020b17a1a5175000170972
-257100000014850012_1709737722_999412
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,
+1020b17a1a5175000170973739400000014680004_1709737722_998719
+restartCommand2=/usr/bin/kalendarac,-session,
+1020b17a1a5175000170972244200000014760007_1709737722_999037
+restartCommand3=/usr/bin/konsole,-session,
+1020b17a1a5175000170972253100000014850009_1709737722_999027
+restartCommand4=/usr/bin/konsole,-session,
+1020b17a1a5175000170972254400000014850010_1709737722_999258
+restartCommand5=/usr/bin/konsole,-session,
+1020b17a1a5175000170972255700000014850011_1709737722_999371
+restartCommand6=/usr/bin/konsole,-session,
+1020b17a1a5175000170972257100000014850012_1709737722_999412
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
