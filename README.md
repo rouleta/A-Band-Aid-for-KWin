@@ -76,14 +76,14 @@ clientId4=1020b17a1a5175000170972254400000014850010
 clientId5=1020b17a1a5175000170972255700000014850011
 clientId6=1020b17a1a5175000170972257100000014850012
 count=6
-discardCommand3[$e]=rm,$HOME/.config/session/
-konsole_1020b17a1a5175000170972253100000014850009_1709737722_999027
-discardCommand4[$e]=rm,$HOME/.config/session/
-konsole_1020b17a1a5175000170972254400000014850010_1709737722_999258
-discardCommand5[$e]=rm,$HOME/.config/session/
-konsole_1020b17a1a5175000170972255700000014850011_1709737722_999371
-discardCommand6[$e]=rm,$HOME/.config/session/
-konsole_1020b17a1a5175000170972257100000014850012_1709737722_999412
+discardCommand3[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972253100000014850009_1709737722_999027
+discardCommand4[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972254400000014850010_1709737722_999258
+discardCommand5[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972255700000014850011_1709737722_999371
+discardCommand6[$e]=rm,$HOME/.config/session/konsole_
+1020b17a1a5175000170972257100000014850012_1709737722_999412
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
@@ -123,32 +123,32 @@ clientId4=1020b17a1a5175000170972254400000014850010
 clientId5=1020b17a1a5175000170972255700000014850011
 clientId6=1020b17a1a5175000170972257100000014850012
 count=6
-discardCommand3[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175
-000170972253100000014850009_1709723475_359340
-discardCommand4[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175
-000170972254400000014850010_1709723475_359369
-discardCommand5[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175
-000170972255700000014850011_1709723475_358724
-discardCommand6[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175
-000170972257100000014850012_1709723475_359387
+discardCommand3[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972253100000014850009_1709723475_359340
+discardCommand4[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972254400000014850010_1709723475_359369
+discardCommand5[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972255700000014850011_1709723475_358724
+discardCommand6[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972257100000014850012_1709723475_359387
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
 program4=/usr/bin/konsole
 program5=/usr/bin/konsole
 program6=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a5175
-000170972297000000033400005_1709723475_358445
-restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a51750001709722
-44200000014760007_1709723475_358699
-restartCommand3=/usr/bin/konsole,-session,1020b17a1a51750001709722531
-00000014850009_1709723475_359340
-restartCommand4=/usr/bin/konsole,-session,1020b17a1a51750001709722544
-00000014850010_1709723475_359369
-restartCommand5=/usr/bin/konsole,-session,1020b17a1a51750001709722557
-00000014850011_1709723475_358724
-restartCommand6=/usr/bin/konsole,-session,1020b17a1a51750001709722571
-00000014850012_1709723475_359387
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,
+1020b17a1a5175000170972297000000033400005_1709723475_358445
+restartCommand2=/usr/bin/kalendarac,-session,
+1020b17a1a5175000170972244200000014760007_1709723475_358699
+restartCommand3=/usr/bin/konsole,-session,
+1020b17a1a5175000170972253100000014850009_1709723475_359340
+restartCommand4=/usr/bin/konsole,-session,
+1020b17a1a5175000170972254400000014850010_1709723475_359369
+restartCommand5=/usr/bin/konsole,-session,
+1020b17a1a5175000170972255700000014850011_1709723475_358724
+restartCommand6=/usr/bin/konsole,-session,
+1020b17a1a5175000170972257100000014850012_1709723475_359387
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
@@ -178,17 +178,17 @@ clientId1=1020b17a1a5175000170973739400000014680004
 clientId2=1020b17a1a5175000170972244200000014760007
 clientId3=1020b17a1a5175000170972253100000014850009
 count=3
-discardCommand3[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175
-000170972253100000014850009_1709737722_999027
+discardCommand3[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972253100000014850009_1709737722_999027
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a5175
-000170973739400000014680004_1709737722_998719
-restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a5175000170972
-244200000014760007_1709737722_999037
-restartCommand3=/usr/bin/konsole,-session,1020b17a1a5175000170972253
-100000014850009_1709737722_999027
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,
+1020b17a1a5175000170973739400000014680004_1709737722_998719
+restartCommand2=/usr/bin/kalendarac,-session,
+1020b17a1a5175000170972244200000014760007_1709737722_999037
+restartCommand3=/usr/bin/konsole,-session,
+1020b17a1a5175000170972253100000014850009_1709737722_999027
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
@@ -201,17 +201,17 @@ clientId1=1020b17a1a5175000170972297000000033400005
 clientId2=1020b17a1a5175000170972244200000014760007
 clientId3=1020b17a1a5175000170972253100000014850009
 count=3
-discardCommand3[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175
-000170972253100000014850009_1709723475_359340
+discardCommand3[$e]=rm,$HOME/.config/session/konsole
+_1020b17a1a5175000170972253100000014850009_1709723475_359340
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a5175
-000170972297000000033400005_1709723475_358445
-restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a51750001709722
-44200000014760007_1709723475_358699
-restartCommand3=/usr/bin/konsole,-session,1020b17a1a51750001709722531
-00000014850009_1709723475_359340
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,
+1020b17a1a5175000170972297000000033400005_1709723475_358445
+restartCommand2=/usr/bin/kalendarac,-session,
+1020b17a1a5175000170972244200000014760007_1709723475_358699
+restartCommand3=/usr/bin/konsole,-session,
+1020b17a1a5175000170972253100000014850009_1709723475_359340
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
@@ -219,11 +219,12 @@ userId1=usrName
 userId2=usrName
 userId3=usrName
 
-Note that this KWin flexibility is a powerful means to modify the setting
-``kwin_saved by user_'' which usually needs to reboot the PC.
+Note that this KWin flexibility is a powerful means to modify 
+the setting ``kwin_saved by user_'' which usually needs to 
+reboot the PC.
 
-In the same manner, the file ``kwin_saved at previous logout_'' produced
-by KWin during the init process is
+In the same manner, the file ``kwin_saved at previous logout_'' 
+produced by KWin during the init process is
 
 [Session]
 active=1
@@ -380,19 +381,23 @@ wmCommand4=
 wmCommand5=
 wmCommand6=
 
-It should be used to replace the text found in ``kwin_saved by user_'' so that
-the two kwin_* files becomes identical... leading to get the same screen
-organisation of virtual desktops.
+It should be used to replace the text in ``kwin_saved by user_'' 
+so that the two kwin_* files becomes identical... leading to 
+get the same screen organisation of virtual desktops.
 
-Now two new konsole files should be designed by using the above konsoles_*.
-Their names could be (for exple)
+Now two new konsole files should be designed by using the above 
+konsoles_*. Their names could be (for exple)
 
-konsole_1020b17a1a5175000170972253100000014850009_1709723475_359341
-konsole_1020b17a1a5175000170972253100000014850009_1709737722_999028
+konsole_1020b17a1a5175000170972253100000014850009_1709723475
+_359341
+konsole_1020b17a1a5175000170972253100000014850009_1709737722
+_999028
 
 whose contents is taken from konsoles_* family. The first file is
-based on the contents of odd konsoles files, the other one the even
-konsoles files. But here again, some little changes are needed.
+based on the contents of odd konsoles files, the other one the 
+even konsoles files. But here again, some little changes are 
+needed.
+
 Note that the same process should be used to write the two above
 files to get for the first one the following structure:
 
