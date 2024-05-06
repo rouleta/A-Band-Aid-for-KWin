@@ -58,8 +58,8 @@ of screen data:
 
 which works both for options (1) and (2). The two parts of this file
 should be changed, the original being:
-
-```[General]
+```
+[General]
 loginMode=restorePreviousLogout
 
 [LegacySession: saved at previous logout]
