@@ -432,6 +432,7 @@ VGA-1=VGA-1
 ```
 and so on for the two last odd  konsole_*. But the following changes must be introduced to get
 ```
+
 [1]
 Active=0
 Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
