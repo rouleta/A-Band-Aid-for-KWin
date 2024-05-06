@@ -103,7 +103,7 @@ userId2=usrName
 userId3=usrName
 userId4=usrName
 userId5=usrName
-userId6=usrName```
+userId6=usrName
 
 [Session: saved by user]
 clientId1=1020b17a1a5175000170972297000000033400005
@@ -113,42 +113,22 @@ clientId4=1020b17a1a5175000170972254400000014850010
 clientId5=1020b17a1a5175000170972255700000014850011
 clientId6=1020b17a1a5175000170972257100000014850012
 count=6
-discardCommand3[$e]=rm,$HOME/.config/session/konsole
-_1020b17a1a5175000170972253100000014850009_1709723475
-_359340
-discardCommand4[$e]=rm,$HOME/.config/session/konsole
-_1020b17a1a5175000170972254400000014850010_1709723475
-_359369
-discardCommand5[$e]=rm,$HOME/.config/session/konsole
-_1020b17a1a5175000170972255700000014850011_1709723475
-_358724
-discardCommand6[$e]=rm,$HOME/.config/session/konsole
-_1020b17a1a5175000170972257100000014850012_1709723475
-_359387
+discardCommand3[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175000170972253100000014850009_1709723475_359340
+discardCommand4[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175000170972254400000014850010_1709723475_359369
+discardCommand5[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175000170972255700000014850011_1709723475_358724
+discardCommand6[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175000170972257100000014850012_1709723475_359387
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
 program4=/usr/bin/konsole
 program5=/usr/bin/konsole
 program6=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,
-1020b17a1a5175000170972297000000033400005_1709723475
-_358445
-restartCommand2=/usr/bin/kalendarac,-session,
-1020b17a1a5175000170972244200000014760007_1709723475
-_358699
-restartCommand3=/usr/bin/konsole,-session,
-1020b17a1a5175000170972253100000014850009_1709723475
-_359340
-restartCommand4=/usr/bin/konsole,-session,
-1020b17a1a5175000170972254400000014850010_1709723475
-_359369
-restartCommand5=/usr/bin/konsole,-session,
-1020b17a1a5175000170972255700000014850011_1709723475
-_358724
-restartCommand6=/usr/bin/konsole,-session,
-1020b17a1a5175000170972257100000014850012_1709723475
-_359387
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a5175000170972297000000033400005_1709723475_358445
+restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a5175000170972244200000014760007_1709723475_358699
+restartCommand3=/usr/bin/konsole,-session,1020b17a1a5175000170972253100000014850009_1709723475_359340
+restartCommand4=/usr/bin/konsole,-session,1020b17a1a5175000170972254400000014850010_1709723475_359369
+restartCommand5=/usr/bin/konsole,-session,1020b17a1a5175000170972255700000014850011_1709723475_358724
+restartCommand6=/usr/bin/konsole,-session,1020b17a1a5175000170972257100000014850012_1709723475_359387
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
@@ -160,12 +140,12 @@ userId2=usrName
 userId3=usrName
 userId4=usrName
 userId5=usrName
-userId6=usrName
+userId6=usrName```
 
 With the help of an editor, the ksmserverrc file should be 
 reduced to
 
-[General]
+```[General]
 loginMode=restorePreviousLogout
 
 [LegacySession: saved at previous logout]
@@ -179,21 +159,13 @@ clientId1=1020b17a1a5175000170973739400000014680004
 clientId2=1020b17a1a5175000170972244200000014760007
 clientId3=1020b17a1a5175000170972253100000014850009
 count=3
-discardCommand3[$e]=rm,$HOME/.config/session/konsole
-_1020b17a1a5175000170972253100000014850009_1709737722
-_999027
+discardCommand3[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175000170972253100000014850009_1709737722_999027
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,
-1020b17a1a5175000170973739400000014680004_1709737722
-_998719
-restartCommand2=/usr/bin/kalendarac,-session,
-1020b17a1a5175000170972244200000014760007_1709737722
-_999037
-restartCommand3=/usr/bin/konsole,-session,
-1020b17a1a5175000170972253100000014850009_1709737722
-_999027
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a5175000170973739400000014680004_1709737722_998719
+restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a5175000170972244200000014760007_1709737722_999037
+restartCommand3=/usr/bin/konsole,-session,1020b17a1a5175000170972253100000014850009_1709737722_999027
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
@@ -206,27 +178,19 @@ clientId1=1020b17a1a5175000170972297000000033400005
 clientId2=1020b17a1a5175000170972244200000014760007
 clientId3=1020b17a1a5175000170972253100000014850009
 count=3
-discardCommand3[$e]=rm,$HOME/.config/session/konsole
-_1020b17a1a5175000170972253100000014850009_1709723475
-_359340
+discardCommand3[$e]=rm,$HOME/.config/session/konsole_1020b17a1a5175000170972253100000014850009_1709723475_359340
 program1=/usr/libexec/DiscoverNotifier
 program2=/usr/bin/kalendarac
 program3=/usr/bin/konsole
-restartCommand1=/usr/libexec/DiscoverNotifier,-session,
-1020b17a1a5175000170972297000000033400005_1709723475
-_358445
-restartCommand2=/usr/bin/kalendarac,-session,
-1020b17a1a5175000170972244200000014760007_1709723475
-_358699
-restartCommand3=/usr/bin/konsole,-session,
-1020b17a1a5175000170972253100000014850009_1709723475
-_359340
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,1020b17a1a5175000170972297000000033400005_1709723475_358445
+restartCommand2=/usr/bin/kalendarac,-session,1020b17a1a5175000170972244200000014760007_1709723475_358699
+restartCommand3=/usr/bin/konsole,-session,1020b17a1a5175000170972253100000014850009_1709723475_359340
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
 userId1=usrName
 userId2=usrName
-userId3=usrName
+userId3=usrName```
 
 Note that this KWin flexibility is a powerful means to modify 
 the setting ``kwin_saved by user_'' which usually needs to 
