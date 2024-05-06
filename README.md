@@ -59,7 +59,7 @@ of screen data:
 which works both for options (1) and (2). The two parts of this file
 should be changed, the original being:
 
-[General]
+```[General]
 loginMode=restorePreviousLogout
 
 [LegacySession: saved at previous logout]
@@ -69,7 +69,7 @@ count=0
 count=0
 
 [Session: saved at previous logout]
-```clientId1=1020b17a1a5175000170973739400000014680004
+clientId1=1020b17a1a5175000170973739400000014680004
 clientId2=1020b17a1a5175000170972244200000014760007
 clientId3=1020b17a1a5175000170972253100000014850009
 clientId4=1020b17a1a5175000170972254400000014850010
