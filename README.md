@@ -196,7 +196,7 @@ Note that this KWin flexibility is a powerful means to modify the setting
 
 In the same manner, the file ``kwin_saved at previous logout_'' produced
 by KWin during the init process is
-
+```
 [Session]
 active=1
 activities1=ab93c009-71d4-4bd4-bda9-4496987eaa14
@@ -351,7 +351,7 @@ wmCommand3=
 wmCommand4=
 wmCommand5=
 wmCommand6=
-
+```
 It should be used to replace the text found in ``kwin_saved by user_'' so that
 the two kwin_* files becomes identical... leading to get the same screen
 organisation of virtual desktops.
