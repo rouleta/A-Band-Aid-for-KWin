@@ -17,11 +17,11 @@ Fedora36KDE, which works perfectly.
 To start KWin in a perfect manner use the set of successive
 manipulations. And to simplify the explanations, a true example
 of files produced by KWin for 4xVirtual Desktops is selected in:
-
+```
 ~/.config/session
-
+```
 where  ~ means /home/usrName
-
+```
 konsole_1020b17a1a5175000170972253100000014850009_1709723475_359340
 konsole_1020b17a1a5175000170972253100000014850009_1709737722_999027
 konsole_1020b17a1a5175000170972254400000014850010_1709723475_359369
@@ -30,35 +30,29 @@ konsole_1020b17a1a5175000170972255700000014850011_1709723475_358724
 konsole_1020b17a1a5175000170972255700000014850011_1709737722_999371
 konsole_1020b17a1a5175000170972257100000014850012_1709723475_359387
 konsole_1020b17a1a5175000170972257100000014850012_1709737722_999412
-
-where the odd files size is 936, the even one 961. The odd files
-are produced by KWin when the option (2) has been selected. The even
-family appears when we select the /KWin option (1):
-
-"System Settings" > "Startupand Shutdown" > "Session Management" >
-"Restore previous logout"
-
-and reboot the PC. The even files are obtained when we select the
-option (2):
-
-"System Settings" > "Startup and Shutdown" > "Session Management" >
-"Session manually saved by user"
-
-See the standard manner to operate KWin during its init setting phase.
-In addition to the above family files, KWin writes two extra files
-in ~/.config/session :
-
+```
+where the odd files (i.e., the first one, the third one... size is 936, the even (i.e., the second one, the forth one...) size is 961. 
+The odd files are produced by KWin when the option (2) has been selected. The even family appears when we select the /KWin option (1):
+```
+"System Settings" > "Startupand Shutdown" > "Session Management" > "Restore previous logout"
+```
+and reboot the PC. The even files are obtained when we select the option (2):
+```
+"System Settings" > "Startup and Shutdown" > "Session Management" > "Session manually saved by user"
+```
+See the standard manner to operate KWin during its init setting phase. In addition to the above family files, KWin writes two 
+extra files in ~/.config/session :
+```
 ``kwin_saved at previous logout_''
 ``kwin_saved by user_''
-
+```
 and a specific server to govern after a login the re-reading step 
 of screen data:
-
+```
 ~/.config/ksmserverrc
-
-which works both for options (1) and (2). The two parts of this file
-should be changed, the original being:
-
+```
+which works both for options (1) and (2). The two parts of this file should be changed, the original being:
+```
 [General]
 loginMode=restorePreviousLogout
 
@@ -141,9 +135,9 @@ userId3=usrName
 userId4=usrName
 userId5=usrName
 userId6=usrName
-
+```
 With the help of an editor, the ksmserverrc file should be reduced to
-
+```
 [General]
 loginMode=restorePreviousLogout
 
@@ -190,12 +184,11 @@ restartStyleHint3=0
 userId1=usrName
 userId2=usrName
 userId3=usrName
+```
+Note that this KWin flexibility is a powerful means to modify the setting ``kwin_saved by user_'' which usually needs 
+to reboot the PC.
 
-Note that this KWin flexibility is a powerful means to modify the setting
-``kwin_saved by user_'' which usually needs to reboot the PC.
-
-In the same manner, the file ``kwin_saved at previous logout_'' produced
-by KWin during the init process is
+In the same manner, the file ``kwin_saved at previous logout_'' produced by KWin during the init process is
 ```
 [Session]
 active=1
@@ -352,22 +345,19 @@ wmCommand4=
 wmCommand5=
 wmCommand6=
 ```
-It should be used to replace the text found in ``kwin_saved by user_'' so that
-the two kwin_* files becomes identical... leading to get the same screen
-organisation of virtual desktops.
+It should be used to replace the text found in ``kwin_saved by user_'' so that the two kwin_* files becomes identical... 
+leading to get the same screen organisation of virtual desktops.
 
-Now two new konsole files should be designed by using the above konsoles_*.
-Their names could be (for exple)
-
+Now two new konsole files should be designed by using the above konsoles_*. Their names could be choosen as:
+```
 konsole_1020b17a1a5175000170972253100000014850009_1709723475_359341
 konsole_1020b17a1a5175000170972253100000014850009_1709737722_999028
+```
+whose contents is taken from konsoles_* family. The first file is based on the contents of odd konsoles files, the 
+other one the even konsoles files. But here again, some little changes are needed.
 
-whose contents is taken from konsoles_* family. The first file is
-based on the contents of odd konsoles files, the other one the even
-konsoles files. But here again, some little changes are needed.
-Note that the same process should be used to write the two above
-files to get for the first one the following structure:
-
+Note that the same process should be used to write the two above files to get for the first one the following structure:
+```
 [1]
 Active=0
 Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
@@ -423,10 +413,9 @@ ObjectName=MainWindow#1
 RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABFQEAAAMAAAPsAAADlgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAASP/////AAAAAAAAAAA=
 VGA-1=VGA-1
-
-and so on for the two last odd  konsole_*. But the followin changes must be introduced
-to get
-
+```
+and so on for the two last odd  konsole_*. But the followin changes must be introduced to get
+```
 [1]
 Active=0
 Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
@@ -480,11 +469,10 @@ ObjectName=MainWindow#2
 RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABFQEAAAMAAAPsAAADlgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAASP/////AAAAAAAAAAA=
 VGA-1=VGA-1
-
 ...
-
+```
 and do the same for the new even file:
-
+```
 [1]
 Active=0
 Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
@@ -492,7 +480,6 @@ Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
 [2]
 Active=0
 Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":2}]}]
-
 ...
 
 [Number]
@@ -542,27 +529,25 @@ State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAG
 ToolBarsMovable=Disabled
 VGA-1=VGA-1
 ...
-
-Note that the ``ToolBarsMovable=Disabled'' has been added. To terminate the init
-process, the name of these two new konsole files must be exchanged in the original
-form of ksmserverrc and appear in place of :
-
+```
+Note that the ``ToolBarsMovable=Disabled'' has been added. To terminate the init process, the name of these two 
+new konsole files must be exchanged in the original form of ksmserverrc and appear in place of :
+```
 konsole_1020b17a1a5175000170972253100000014850009_1709723475_359340
 konsole_1020b17a1a5175000170972253100000014850009_1709737722_999027
-
+```
 one must use :
-
+```
 konsole_1020b17a1a5175000170972253100000014850009_1709723475_359341
 konsole_1020b17a1a5175000170972253100000014850009_1709737722_999028
-
+```
 and 
-
+```
 1020b17a1a5175000170972253100000014850009_1709723475_359341
 1020b17a1a5175000170972253100000014850009_1709737722_999028
-
-Putting these two new files in ~/.config/session, they will be adopted by KWin
-during the next reboot, so that the 8 konsoles files, even and odd, will become 
-useless. To check the success of these operations it will be sufficient to observe 
-if or not the KWin screen manager works without the 8 initial konsole family. Then,
-before logout, choose the next starting option (1). After login you should recover
-the intial screen arrangement, equipped with 4 virtual konsoles. 
+```
+Putting these two new files in ~/.config/session, they will be adopted by KWin during the next reboot, so that the  
+8 konsoles files, even and odd, will become useless. To check the success of these operations it will be sufficient 
+to observe if or not the KWin screen manager works without the 8 initial konsole family. Then,before logout, choose 
+the next starting option (1). After login you should recover the intial screen arrangement, equipped with 4 virtual 
+konsoles. 
